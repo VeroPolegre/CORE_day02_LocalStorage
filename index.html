@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Local Storage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ejercicio Local Storage</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <label for="firstName"
+            >Nombre:
+            <input
+              id="firstName"
+              name="firstName"
+              type="text"
+              placeholder="Juan"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <label for="email"
+            >Correo:
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="juanitowick@email.com"
+              required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <label for="message"
+            >Mensaje:
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Doesn't look like anything to me"
+              required
+            ></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" id="submit" />
+      </form>
+      <p id="text"></p>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
