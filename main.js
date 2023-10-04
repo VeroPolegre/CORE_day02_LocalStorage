@@ -5,7 +5,6 @@ const email = document.getElementById("email");
 const message = document.getElementById("message");
 const text = document.getElementById("text");
 
-submit.addEventListener("click", sendUsersInfo);
 /*
 function sendUserInfo(e) {
   e.preventDefault();
@@ -24,6 +23,7 @@ function sendUserInfo(e) {
 }
 
 submit.addEventListener("click", sendUserInfo);
+
 */
 //extra
 let users = JSON.parse(localStorage.getItem("users")) || [];
@@ -47,9 +47,7 @@ function sendUsersInfo(e) {
     console.log(savedUsers);
   }
 }
-let userSaved = JSON.parse(localStorage.getItem("userForm"));
 submit.addEventListener("click", sendUsersInfo);
-
 // localStorage.clear() always clear and remove to test!!!
 /* Another way to iterate the values
   for (let i = 0; i < savedUsers.length; i++) {
