@@ -8,6 +8,8 @@
 
 ⦁ Use of JSON.parse() and JSON.stringify()
 
+</br>
+
 1. Contact form - Local Storage
 
 Create a contact form with the following fields:
@@ -23,6 +25,8 @@ Create a function that when you submit the form displays the contact data filled
 Save the previously consoled object to Local Storage (only saves one user)
 
 Show the user you have saved in the DOM (HTML)
+
+</br>
 
 2. Extra
    
